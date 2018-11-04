@@ -80,7 +80,8 @@ private:
   uint8_t _txt_width = {};
   uint16_t _zen_or_han_cnt[ _Max_Num ] = {};
 
-  uint16_t _X0, _Y0 = {};
+  uint16_t _X0, _Y0 = {};//*132
+
 
   #define SWAP(type, x, y) do { type tmp = x; x = y; y = tmp; } while (0)
 
